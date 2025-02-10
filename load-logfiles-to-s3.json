@@ -1,0 +1,29 @@
+{
+    "name": "load-logfiles-to-s3",
+    "description": "Load instance work logfiles to S3 bucket",
+    "parameters": [
+      {
+        "name": "hostnameip",
+        "description": "IP or hostname",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 0
+      },
+      {
+        "name": "s3bucketname",
+        "description": "S3 bucket name for destination",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 1
+      },
+      {
+        "name": "sapsid",
+        "description": "SAP instance ID, also referred to as SID",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 2
+      }
+    ],
+    "requireConfirmation": "DISABLED"
+  }
+  

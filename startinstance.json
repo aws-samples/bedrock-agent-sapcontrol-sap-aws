@@ -1,0 +1,22 @@
+{
+    "name": "startinstance",
+    "description": "Start an SAP instance on a host",
+    "parameters": [
+      {
+        "name": "hostnameip",
+        "description": "IP or hostname",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 0
+      },
+      {
+        "name": "sapsid",
+        "description": "SAP instance ID, also referred to as SID",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 1
+      }
+    ],
+    "requireConfirmation": "DISABLED"
+  }
+  

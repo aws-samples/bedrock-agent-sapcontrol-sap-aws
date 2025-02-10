@@ -1,0 +1,29 @@
+{
+    "name": "get-parameter-value",
+    "description": "Checks and return SAP system parameter value for a particular host and for a particular SAP instance ID, usually referred to as SID",
+    "parameters": [
+      {
+        "name": "hostnameip",
+        "description": "IP or hostname",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 0
+      },
+      {
+        "name": "parametername",
+        "description": "name of the parameter to be checked",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 1
+      },
+      {
+        "name": "sapsid",
+        "description": "SAP instance ID, also referred to as SID",
+        "required": "True",
+        "type": "String",
+        "tableIndex": 2
+      }
+    ],
+    "requireConfirmation": "DISABLED"
+  }
+  

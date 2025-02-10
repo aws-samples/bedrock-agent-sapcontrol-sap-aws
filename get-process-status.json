@@ -1,0 +1,20 @@
+{
+    "name": "get-process-status",
+    "description": "Get Process Status of SAP instance",
+    "parameters": [
+      {
+        "name": "hostnameip",
+        "description": "IP or hostname",
+        "required": "True",
+        "type": "string"
+      },
+      {
+        "name": "sapsid",
+        "description": "SAP Instance ID, also referred as SID",
+        "required": "True",
+        "type": "string"
+      }
+    ],
+    "requireConfirmation": "DISABLED"
+  }
+  
